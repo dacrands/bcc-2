@@ -1,15 +1,32 @@
-.body {
-    background: red;
-    /* margin-top: 100vh; */
-}
+
 canvas {
     display: block;
     vertical-align: bottom;
   }
 
+h1,h2,h3,h4,h5 {
+    color: rgb(53, 49, 49); 
+    
+}
+
+h4 {
+    margin-bottom:15px;
+    font-weight: bold;
+}
+
+p {
+    color:rgb(116, 113, 119);
+}
+
+img, .embed-responsive  {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
 .row {
     margin: 0;
 }
+
+/* =========NAVBAR========= */
 
 .navbar{
     transition: all .8s;
@@ -30,12 +47,14 @@ canvas {
 }
 .navbar-brand {
     text-align: center;
+    /* color: darkgray; */
 }
 
 .navbar-landing {
     padding: 30px 60px;
 }
 
+/* =========PARTICLES========= */
 #particles-js {
     position: absolute;
     width: 100%;
@@ -48,10 +67,11 @@ canvas {
     z-index: 10000;
   }
 
-  .particles-wrapper {
+.particles-wrapper {
       height: 100vh;
-  }
+}
 
+/* =========LANDING========= */
 .landing {
     height: 100vh;
     width: 100%;
@@ -63,18 +83,10 @@ canvas {
     display: grid;
     grid-template-rows: 55% 1fr;
     align-items: center;
-    /* justify-content: space-around; */
     text-align: center;
     color: rgb(224, 217, 217);
-    /* z-index: -1; */
+
 }
-
-/* .landing-icon {
-    align-content: end;
-    justify-content: space-around;
-    color: darkgray;
-} */
-
 
 .landing-title{
     align-self: end;
@@ -88,12 +100,11 @@ canvas {
     z-index: 1000;
 }
 
-
-
 .landing-title h1 {
     font-size: 6rem; 
     position: relative;
     z-index: 1001;
+    color: darkgray;
     
 }
 
@@ -109,6 +120,7 @@ canvas {
     display: flex;
     justify-content: center;
 }
+
 .landing-chevron a{
     position: absolute;
     color: darkgray;
@@ -142,32 +154,27 @@ canvas {
     }
 }
 
-
-
-
+/* =========ABOUT========= */
 .about {
     display: grid;
-    height: 50vh;
+    height:100vh;
     grid-template-rows: 30% 1fr;
-    justify-items: center;
+    justify-content: center;
     /* align-items: center; */
 }
 
 .about-title {
     align-self: center;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .about-content{
     padding:35px;
+    align-self: center;
+    justify-items: center;
 }
 
 
-.carousel-inner {
-    width:640px;
-    height:360px;
-    margin: 0 auto;
-  }
-
-.carousel {
-    background: black;
+.about-image {
+    text-align: center;
 }

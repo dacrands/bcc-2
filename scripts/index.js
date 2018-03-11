@@ -4,7 +4,7 @@ const nav = document.querySelector('.navbar');
 const navIcon = document.querySelector('navbar-icon')
 
 window.addEventListener('scroll', () =>{
-    if (window.scrollY >= about.scrollHeight - 180) {
+    if (window.scrollY >= landing.scrollHeight - 180) {
         nav.classList.remove('navbar-landing');
         nav.classList.add('navbar-bg');
         navIcon.classList.remove('fa-2x');
