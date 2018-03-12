@@ -99,6 +99,7 @@ img, .embed-responsive  {
     justify-content: flex-end;
     font-family: 'Source Sans Pro', sans-serif;
     z-index: 1000;
+    font-size: 6rem;
 }
 
 .landing-title h1 {
@@ -178,4 +179,15 @@ img, .embed-responsive  {
 
 .about-image {
     text-align: center;
+}
+
+
+/* =========MEDIA========= */
+@media (max-width:768px){
+    .landing-title {
+        font-size: 4rem; 
+    }
+    .landing-title  h1{
+        font-size: 4rem; 
+    }
 }
