@@ -14,3 +14,11 @@ window.addEventListener('scroll', () =>{
         navIcon.classList.add('fa-2x');
     }
 });
+
+
+$("#chevron").click(function(){
+    var videoHeight = $(".jumbotron").offset().top - 50;
+    $("body, html").animate({
+      scrollTop: videoHeight
+    }, 500);
+});
