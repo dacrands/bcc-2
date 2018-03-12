@@ -35,6 +35,10 @@ img, .embed-responsive  {
     
 }
 
+.navbar-brand svg {
+    fill: darkgray;
+}
+
 .navbar-bg {
     background: #0f0c29;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
@@ -45,10 +49,7 @@ img, .embed-responsive  {
 .navbar-landing .navbar-nav .show {
     background-color: rgba(0, 0, 0, 0.589);
 }
-.navbar-brand {
-    text-align: center;
-    /* color: darkgray; */
-}
+
 
 .navbar-landing {
     padding: 30px 60px;
