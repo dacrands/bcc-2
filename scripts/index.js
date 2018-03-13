@@ -1,7 +1,7 @@
 const about = document.querySelector('.about');
 const landing = document.querySelector('.landing');
 const nav = document.querySelector('.navbar');
-const navIcon = document.querySelector('navbar-icon')
+const navIcon = document.querySelector('.navbar-icon')
 
 window.addEventListener('scroll', () =>{
     if (window.scrollY >= landing.scrollHeight - 180) {

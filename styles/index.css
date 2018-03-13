@@ -35,8 +35,8 @@ img, .embed-responsive  {
     
 }
 
-.navbar-brand svg {
-    fill: darkgray;
+.navbar-brand a {
+   color: darkgray;
 }
 
 .navbar-bg {
@@ -52,7 +52,7 @@ img, .embed-responsive  {
 
 
 .navbar-landing {
-    padding: 30px 60px;
+    padding: 30px;
 }
 
 /* =========PARTICLES========= */
@@ -185,9 +185,9 @@ img, .embed-responsive  {
 /* =========MEDIA========= */
 @media (max-width:768px){
     .landing-title {
-        font-size: 4rem; 
+        font-size: 3.5rem; 
     }
     .landing-title  h1{
-        font-size: 4rem; 
+        font-size: 3.5rem; 
     }
 }
