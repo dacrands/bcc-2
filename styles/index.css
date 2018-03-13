@@ -23,7 +23,7 @@ img, .embed-responsive  {
 }
 
 .row {
-    margin: 50px 0;
+    margin: 70px 0;
 }
 
 /* =========NAVBAR========= */
@@ -82,7 +82,7 @@ img, .embed-responsive  {
     background: -webkit-linear-gradient(to bottom, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     display: grid;
-    grid-template-rows: 55% 1fr;
+    grid-template-rows: 58% 1fr;
     align-items: center;
     text-align: center;
     color: rgb(224, 217, 217);
