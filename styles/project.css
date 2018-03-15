@@ -1,3 +1,23 @@
+body {
+    background: #abbaab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #ffffff 50%, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+p {
+    margin: 0;
+}
+
+/* img {
+    height: 600px;
+    width: 600px;
+} */
+
+.img-thumbnail {
+    margin: 15px;
+}
+
 .project-video {
     margin: 0 auto;
 }
@@ -19,9 +39,7 @@
     text-align: center;
 }
 
-p {
-    margin: 0;
-}
+
 
 .project-container h1{
     text-align: center;
@@ -38,3 +56,4 @@ p {
 .row:nth-of-type(1) {
     margin: 20px;
 }
+
