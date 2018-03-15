@@ -4,6 +4,40 @@ body {
 
 }
 
+.jumbotron {
+    margin-bottom: 0;
+}
+
+.nav {
+    padding: 20px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 
+                0 3px 6px rgba(0,0,0,0.23);
+    margin-bottom: 30px;
+    transition: all ease-in .3s;
+    background: white;
+}
+
+.nav-sticky {
+    position: fixed;
+    top: 60px;
+    width: 100%;
+    
+    z-index: 9999;
+}
+
+.nav-sticky + #comp-sci{
+    margin-top: 120px;
+}
+
+.field {
+    margin-top: 50px;
+}
+
+.field-title {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
 
 .projects {
     display: grid;
@@ -11,6 +45,11 @@ body {
     grid-auto-rows: 370px;
     grid-gap: 50px;
     justify-content: center;
+}
+
+.projects-group {
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
 }
 
 
