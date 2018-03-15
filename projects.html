@@ -41,7 +41,7 @@
 
 
 
-    <!-- ~~~~~~JUMBOTRON~~~~~~ -->
+<!-- ~~~~~~JUMBOTRON~~~~~~ -->
 <div class="jumbotron jumbotron-fluid">
     <div class="container">
         <h1 class="display-4">Student Projects</h1>
@@ -49,15 +49,16 @@
     </div>
 </div>
 
+<!-- ~~~~~NAV~~~~~ -->
 <ul id="nav" class="nav justify-content-center">
     <li class="nav-item">
-        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Computer Science</a>
+        <a class="nav-item nav-link active" id="comp-btn" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Computer Science</a>
     </li>
     <li class="nav-item">
-        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Biology</a>
+        <a class="nav-item nav-link" id="bio-btn" data-toggle="tab" href="#bio" role="tab" aria-controls="nav-profile" aria-selected="false">Biology</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Engineering</a>
+      <a class="nav-link" id="eng-btn" href="#cs">Engineering</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="#">Chemistry</a>
@@ -67,6 +68,7 @@
     </li>
   </ul>
 
+  <!-- ~~~~~COMP SCI~~~~~ -->
   <div id="comp-sci" class="field">
     <div class="container field-title">
         <h1>Computer Science</h1>
@@ -148,100 +150,197 @@
     </section>
 </div>
 
-    <div id="biology" class="field">
-        <div class="container field-title">
-            <h1>Biology</h1>
-            <hr>
+<!-- ~~~~~BIOLOGY~~~~~ -->
+<div id="biology" class="field">
+    <div class="container field-title">
+        <h1>Biology</h1>
+        <hr>
+    </div>
+    
+    <section class="projects">
+        <div class="project">          
+            <h3>Algae Biodiesel</h3>  
+            <img src="http://www.bergenstem.org/images/algea1.jpg" alt="">
+            <div class="project__overlay">
+                
+                <p>Researchers have been exploring 
+                    methods to maximize growth and lipid production in 
+                    algae. Algae are the most promising candidates for 
+                    future fuels because of their unique ability to 
+                    produce a high lipid concentration.</p>
+                <button class="btn">View →</button>
+            </div>
         </div>
-        
-        <section class="projects">
-                <div class="project">          
-                    <h3>Algae Biodiesel</h3>  
-                    <img src="http://www.bergenstem.org/images/algea1.jpg" alt="">
-                    <div class="project__overlay">
-                        
-                        <p>Researchers have been exploring 
-                            methods to maximize growth and lipid production in 
-                            algae. Algae are the most promising candidates for 
-                            future fuels because of their unique ability to 
-                            produce a high lipid concentration.</p>
-                        <button class="btn">View →</button>
-                    </div>
-                </div>
-                <div class="project">  
-                    <h3>Block House</h3>          
-                    <img src="http://www.bergenstem.org/images/blockhouse1.jpg" alt="">
-                    <div class="project__overlay">                
-                        <p>An off the grid block house for the purpose of storing, 
-                            working and testing STEM projects. Tests such as material 
-                            efficiency and heat transfer. Solar panel and wind turbine 
-                            data collection.</p>
-                        <button class="btn">View →</button>
-                    </div>
-                </div>
-                <div class="project">    
-                    <h3>Electric Vehicle Conversions</h3>        
-                    <img src="http://www.bergenstem.org/images/electriccar1.jpg" alt="">
-                    <div class="project__overlay">                
-                        <p>We Study the mechanics of Cars and Bicycles 
-                            and learn as much about how they work as 
-                            possible, so we are then able to convert them
-                                to electric powered vehicles.
-                        </p>
-                        <button class="ui inverted button">View →</button>
-                    </div>
-                </div>     
-                <div class="project">          
-                    <h3>Algae Biodiesel</h3>  
-                    <img src="http://www.bergenstem.org/images/algea1.jpg" alt="">
-                    <div class="project__overlay">
-                        
-                        <p>Researchers have been exploring 
-                            methods to maximize growth and lipid production in 
-                            algae. Algae are the most promising candidates for 
-                            future fuels because of their unique ability to 
-                            produce a high lipid concentration.</p>
-                        <button class="btn">View →</button>
-                    </div>
-                </div>
-                <div class="project">  
-                    <h3>Block House</h3>          
-                    <img src="http://www.bergenstem.org/images/blockhouse1.jpg" alt="">
-                    <div class="project__overlay">                
-                        <p>An off the grid block house for the purpose of storing, 
-                            working and testing STEM projects. Tests such as material 
-                            efficiency and heat transfer. Solar panel and wind turbine 
-                            data collection.</p>
-                        <button class="btn">View →</button>
-                    </div>
-                </div>
-                <div class="project">    
-                    <h3>Electric Vehicle Conversions</h3>        
-                    <img src="http://www.bergenstem.org/images/electriccar1.jpg" alt="">
-                    <div class="project__overlay">                
-                        <p>We Study the mechanics of Cars and Bicycles 
-                            and learn as much about how they work as 
-                            possible, so we are then able to convert them
-                                to electric powered vehicles.
-                        </p>
-                        <button class="ui inverted button">View →</button>
-                    </div>
-                </div>     
-                <div class="project">          
-                    <h3>Algae Biodiesel</h3>  
-                    <img src="http://www.bergenstem.org/images/algea1.jpg" alt="">
-                    <div class="project__overlay">
-                        
-                        <p>Researchers have been exploring 
-                            methods to maximize growth and lipid production in 
-                            algae. Algae are the most promising candidates for 
-                            future fuels because of their unique ability to 
-                            produce a high lipid concentration.</p>
-                        <button class="btn">View →</button>
-                    </div>
-                </div>
-            </section>
+        <div class="project">  
+            <h3>Block House</h3>          
+            <img src="http://www.bergenstem.org/images/blockhouse1.jpg" alt="">
+            <div class="project__overlay">                
+                <p>An off the grid block house for the purpose of storing, 
+                    working and testing STEM projects. Tests such as material 
+                    efficiency and heat transfer. Solar panel and wind turbine 
+                    data collection.</p>
+                <button class="btn">View →</button>
+            </div>
         </div>
+        <div class="project">    
+            <h3>Electric Vehicle Conversions</h3>        
+            <img src="http://www.bergenstem.org/images/electriccar1.jpg" alt="">
+            <div class="project__overlay">                
+                <p>We Study the mechanics of Cars and Bicycles 
+                    and learn as much about how they work as 
+                    possible, so we are then able to convert them
+                        to electric powered vehicles.
+                </p>
+                <button class="ui inverted button">View →</button>
+            </div>
+        </div>     
+        <div class="project">          
+            <h3>Algae Biodiesel</h3>  
+            <img src="http://www.bergenstem.org/images/algea1.jpg" alt="">
+            <div class="project__overlay">
+                
+                <p>Researchers have been exploring 
+                    methods to maximize growth and lipid production in 
+                    algae. Algae are the most promising candidates for 
+                    future fuels because of their unique ability to 
+                    produce a high lipid concentration.</p>
+                <button class="btn">View →</button>
+            </div>
+        </div>
+        <div class="project">  
+            <h3>Block House</h3>          
+            <img src="http://www.bergenstem.org/images/blockhouse1.jpg" alt="">
+            <div class="project__overlay">                
+                <p>An off the grid block house for the purpose of storing, 
+                    working and testing STEM projects. Tests such as material 
+                    efficiency and heat transfer. Solar panel and wind turbine 
+                    data collection.</p>
+                <button class="btn">View →</button>
+            </div>
+        </div>
+        <div class="project">    
+            <h3>Electric Vehicle Conversions</h3>        
+            <img src="http://www.bergenstem.org/images/electriccar1.jpg" alt="">
+            <div class="project__overlay">                
+                <p>We Study the mechanics of Cars and Bicycles 
+                    and learn as much about how they work as 
+                    possible, so we are then able to convert them
+                        to electric powered vehicles.
+                </p>
+                <button class="ui inverted button">View →</button>
+            </div>
+        </div>     
+        <div class="project">          
+            <h3>Algae Biodiesel</h3>  
+            <img src="http://www.bergenstem.org/images/algea1.jpg" alt="">
+            <div class="project__overlay">
+                
+                <p>Researchers have been exploring 
+                    methods to maximize growth and lipid production in 
+                    algae. Algae are the most promising candidates for 
+                    future fuels because of their unique ability to 
+                    produce a high lipid concentration.</p>
+                <button class="btn">View →</button>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- ~~~~~ENGINEERING~~~~~ -->
+<div id="eng" class="field">
+    <div class="container field-title">
+        <h1>Engineering</h1>
+        <hr>
+    </div>
+    
+    <section class="projects">
+            <div class="project">          
+                <h3>Algae Biodiesel</h3>  
+                <img src="http://www.bergenstem.org/images/algea1.jpg" alt="">
+                <div class="project__overlay">
+                    
+                    <p>Researchers have been exploring 
+                        methods to maximize growth and lipid production in 
+                        algae. Algae are the most promising candidates for 
+                        future fuels because of their unique ability to 
+                        produce a high lipid concentration.</p>
+                    <button class="btn">View →</button>
+                </div>
+            </div>
+            <div class="project">  
+                <h3>Block House</h3>          
+                <img src="http://www.bergenstem.org/images/blockhouse1.jpg" alt="">
+                <div class="project__overlay">                
+                    <p>An off the grid block house for the purpose of storing, 
+                        working and testing STEM projects. Tests such as material 
+                        efficiency and heat transfer. Solar panel and wind turbine 
+                        data collection.</p>
+                    <button class="btn">View →</button>
+                </div>
+            </div>
+            <div class="project">    
+                <h3>Electric Vehicle Conversions</h3>        
+                <img src="http://www.bergenstem.org/images/electriccar1.jpg" alt="">
+                <div class="project__overlay">                
+                    <p>We Study the mechanics of Cars and Bicycles 
+                        and learn as much about how they work as 
+                        possible, so we are then able to convert them
+                            to electric powered vehicles.
+                    </p>
+                    <button class="ui inverted button">View →</button>
+                </div>
+            </div>     
+            <div class="project">          
+                <h3>Algae Biodiesel</h3>  
+                <img src="http://www.bergenstem.org/images/algea1.jpg" alt="">
+                <div class="project__overlay">
+                    
+                    <p>Researchers have been exploring 
+                        methods to maximize growth and lipid production in 
+                        algae. Algae are the most promising candidates for 
+                        future fuels because of their unique ability to 
+                        produce a high lipid concentration.</p>
+                    <button class="btn">View →</button>
+                </div>
+            </div>
+            <div class="project">  
+                <h3>Block House</h3>          
+                <img src="http://www.bergenstem.org/images/blockhouse1.jpg" alt="">
+                <div class="project__overlay">                
+                    <p>An off the grid block house for the purpose of storing, 
+                        working and testing STEM projects. Tests such as material 
+                        efficiency and heat transfer. Solar panel and wind turbine 
+                        data collection.</p>
+                    <button class="btn">View →</button>
+                </div>
+            </div>
+            <div class="project">    
+                <h3>Electric Vehicle Conversions</h3>        
+                <img src="http://www.bergenstem.org/images/electriccar1.jpg" alt="">
+                <div class="project__overlay">                
+                    <p>We Study the mechanics of Cars and Bicycles 
+                        and learn as much about how they work as 
+                        possible, so we are then able to convert them
+                            to electric powered vehicles.
+                    </p>
+                    <button class="ui inverted button">View →</button>
+                </div>
+            </div>     
+            <div class="project">          
+                <h3>Algae Biodiesel</h3>  
+                <img src="http://www.bergenstem.org/images/algea1.jpg" alt="">
+                <div class="project__overlay">
+                    
+                    <p>Researchers have been exploring 
+                        methods to maximize growth and lipid production in 
+                        algae. Algae are the most promising candidates for 
+                        future fuels because of their unique ability to 
+                        produce a high lipid concentration.</p>
+                    <button class="btn">View →</button>
+                </div>
+            </div>
+        </section>
+    </div>
     
 
 

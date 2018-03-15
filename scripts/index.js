@@ -17,7 +17,7 @@ window.addEventListener('scroll', () =>{
 
 
 $("#chevron").click(function(){
-    var videoHeight = $(".jumbotron").offset().top - 50;
+    const videoHeight = $(".jumbotron").offset().top - 50;
     $("body, html").animate({
       scrollTop: videoHeight
     }, 500);
