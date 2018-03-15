@@ -2,10 +2,10 @@
 window.onscroll = function() {myFunction()};
 
 // Get the navbar
-var navbar = document.getElementById("nav");
+const navbar = document.getElementById("nav");
 
 // Get the offset position of the navbar
-var sticky = navbar.offsetTop;
+const sticky = navbar.offsetTop;
 
 // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
@@ -22,7 +22,7 @@ function myFunction() {
 
 
 $("#bio-btn").click(function(){
-  let elHeight = $("#biology").offset().top - $('.field-title').height() - 100;
+  let elHeight = $("#biology").offset().top - ($('.field-title').height() + 100);
   $("body, html").animate({
     scrollTop: elHeight
   }, 500);

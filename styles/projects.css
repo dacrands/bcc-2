@@ -16,7 +16,8 @@ body {
 }
 
 .nav li {
-    padding: 0 30px;
+    padding: 0 40px;
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
 }
 
 .nav-sticky {
@@ -26,10 +27,11 @@ body {
     z-index: 9999;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 
                 0 3px 6px rgba(0,0,0,0.23);
+    
 }
 
-.nav-sticky + .nav li {
-    padding: 0;
+.nav-sticky li {
+    padding: 0 15px;
 }
 
 .nav-sticky + #comp-sci{
