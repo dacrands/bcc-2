@@ -1,0 +1,40 @@
+.project-video {
+    margin: 0 auto;
+}
+
+.project-container {
+    margin: 0 auto;
+    width: 90%;    
+}
+
+.project-container h4 {
+    text-align: center;
+}
+
+.list-group {
+    text-align: center;
+}
+
+.team {
+    text-align: center;
+}
+
+p {
+    margin: 0;
+}
+
+.project-container h1{
+    text-align: center;
+}
+
+.project-title {
+    margin-top: 100px;
+}
+
+.project-item {
+    margin-bottom: 50px;
+}
+
+.row:nth-of-type(1) {
+    margin: 20px;
+}
