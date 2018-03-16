@@ -26,9 +26,6 @@ img, .embed-responsive  {
     margin: 70px 0;
 }
 
-.row:first-of-type {
-    margin: 0;
-}
 
 .row:last-of-type {
     margin: 0;
@@ -172,6 +169,14 @@ img, .embed-responsive  {
     /* align-items: center; */
 }
 
+.about .row:first-of-type {
+    margin: 0;
+}
+
+.about .row {
+    margin: 150px 0;
+}
+
 .about-title {
     align-self: center;
     font-family: 'Source Sans Pro', sans-serif;
@@ -182,7 +187,6 @@ img, .embed-responsive  {
     align-self: center;
     justify-items: center;
 }
-
 
 .about-image {
     text-align: center;
@@ -209,9 +213,8 @@ img, .embed-responsive  {
     margin: 0;
 }
 
-.footer i {
-    margin: 20px;
-    padding: 20px;
+.footer svg {
+    margin: 5px;
 }
 
 
@@ -223,6 +226,10 @@ img, .embed-responsive  {
     }
     .landing-title  h1{
         font-size: 3.5rem; 
+    }
+
+    .about .row {
+        margin: 70px 0;
     }
 }
 
